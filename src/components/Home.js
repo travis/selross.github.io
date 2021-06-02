@@ -306,6 +306,7 @@ class Home extends Component {
     return (
       <Wrapper className="Home" onClick={this.handleClick}>
         <HamburgerMenu isOpen={this.state.menuOpen} />
+          NOT REALLY SELENE'S WEBSITE THIS IS TRAVIS'S WEBSITE
         <InfoIcon
           src={Info}
           onMouseEnter={() => this.handleHover(["polaroidHovered", "radioHovered", "envelopeHovered", "laptopHovered"])}
